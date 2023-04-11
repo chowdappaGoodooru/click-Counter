@@ -1,0 +1,42 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Roboto;
+}
+.container {
+  background-color: #f1f5f8;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  color: #2d3a35;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.span {
+  color: #c20a72;
+}
+.description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.button {
+  cursor: pointer;
+  outline: none;
+  background-color: #007bff;
+  align-self: center;
+  color: #ffffff;
+  border-style: none;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+@media (max-width: 768) {
+  .heading {
+    font-size: 42px;
+  }
+}
